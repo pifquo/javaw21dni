@@ -4,11 +4,11 @@ public class MarsRobot
     int speed;
     float temperature;
 
-    void chechTemperature()
+    void checkTemperature()
     {
         if (temperature < -62)
         {
-            status = "pwrót do domu";
+            status = "powrót do domu";
             speed = 5;
 
         }
