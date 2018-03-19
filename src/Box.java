@@ -36,8 +36,8 @@ public class Box
 
 void printBox()
     {
-        System.out.println("Box: <"+ x1+ ", "+ y1);
-        System.out.println(", " + x2 + y2 + ">");
+        System.out.print("Box: <"+ x1+ ", "+ y1);
+        System.out.println(", " + x2 + ", "+ y2 + ">");
     }
 
     public static void main(String[] args)
